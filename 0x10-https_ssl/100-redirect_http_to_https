@@ -44,4 +44,4 @@ listen 19018-lb-01
         balance roundrobin
         option forwardfor
         server 19018-web-01 54.175.144.81:80 check
-        server 19018-web-02 35.175.126.63:80 check
+
